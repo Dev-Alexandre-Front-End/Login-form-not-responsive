@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Student Programming and  not responsive" />
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <meta name="description" content="Login, project not responsive" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>LOGIN</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <h1>LOGIN</h1>
+    <label class="email-label" for="usr_email">USUÁRIO</label>
+    <i class="fa fa-user" aria-hidden="true"></i>
+    <input type="text" id="usr_email" name="usr_email" placeholder="Crie seu Gmail" required/>
+    <p class="email_usr" id="emal-u">Use caracteres especiais @gmail.com/ error</p>
+
+    <label class="password-label" for="usr_passrd">SENHA</label>
+    <i class="fa fa-eye" aria-hidden="true" onclick="iconBTN();"></i>
+    <input type="password" id="usr_passrd" name="usr_passrd" placeholder="Crie sua Senha" required/>
+    <p class="password_usr" id="pass-u">Use pelo menos 6 caracteres/ error</p>
+
+    <input type="checkbox" id="check" />
+    <p id="chec-u">Concorde com os termos de uso/error</p>
+
+    <button type="submit" id="usr-submit">ENVIAR</button>
+  </form>
+<script src="main.js"></script>
+</body>
+</html>
